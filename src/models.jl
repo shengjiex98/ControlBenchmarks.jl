@@ -85,12 +85,12 @@ end
 sys_mpc = ss(tf([3, 1],[1, 0.6, 1]))
 
 benchmarks = Dict([
-    :RCN => sys_rcn,
-    :F1T => sys_f1t,
-    :DCM => sys_dcm,
-    :CSS => sys_css,
-    :EWB => sys_ewb,
-    :CC1 => sys_cc1,
-    :CC2 => sys_cc2,
+    :RC => sys_rcn,
+    :F1 => sys_f1t,
+    :DC => sys_dcm,
+    :CS => sys_css,
+    :EW => sys_ewb,
+    :C1 => sys_cc1,
+    :CC => sys_cc2,
     :MPC => sys_mpc
 ])
